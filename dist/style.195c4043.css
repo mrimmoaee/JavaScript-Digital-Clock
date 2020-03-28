@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #060a1f;
+}
+#clock h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 0.9em;
+  letter-spacing: 0.2em;
+  display: block;
+  margin: 10px 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#clock #time {
+  display: flex;
+}
+#clock #time div {
+  position: relative;
+  margin: 0 5px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+#clock #time div span {
+  position: relative;
+  background: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  color: #fff;
+  font-weight: 300;
+  font-size: 3em;
+}
+#clock #time div span:last-child {
+  height: 30px;
+  font-size: 0.7em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: #127fd6;
+}
+
+#clock #time div:nth-child(2) span {
+  background: #ff006a;
+}
+#clock #time div:nth-child(2) span:last-child {
+  background: #ec0062;
+}
+
+#clock #time div:nth-child(3) span {
+  background: #ff6104;
+}
+#clock #time div:nth-child(3) span:last-child {
+  background: #db5200;
+}
+#am_pm {
+  width: 100px;
+  height: 80px;
+  background: #060a1f;
+  color: #fff;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 5px solid #ff006a;
+  border-radius: 0 0 100px 100px;
+}
+
+
+/*# sourceMappingURL=/style.195c4043.css.map */
